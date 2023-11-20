@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*-----------Portada------------*/
+#portada {
+    background-image: url('../img/home-hero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#portada a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#portada header ul {
+    margin: 3em 0 3em 0;
+    font-size: 1.3rem;
+}
+
+#portada figure {
+    margin-top: 11em;
+}
+
+#portada h1 {
+    font-size: 9rem;
+    font-weight: bold;
+    letter-spacing: -0.5rem;
+}
+
+#portada main p {
+    font-size: 2.1rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    margin-bottom: 7em;
+}
+
+.politicas li {
+    display: inline;
+    padding: 0 1em 0 0;
+}
+
+.politicas {
+    margin-bottom: 1.5em;
+    font-size: 1.1rem;
+}
+
+#portada footer p {
+    line-height: 1.5em;
+}
+
+/*-----------Cabecera------------*/
+.cabecera {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1em 0 3em 0;
+    justify-content: center;
+}
+
+.cabecera h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -0.2rem;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.8em;
+}
+
+.titulo img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.textoTitulo {
+    margin-left: 1em;
+}
+
+
+.navegacion {
+    padding-bottom: 10px;
+}
+
+.navegacion li {
+    display: inline;
+    padding: 0 0.5em 0.5em 0.5em;
+    font-size: 1.2rem;
+}
+
+.navSubrayado {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.cabecera a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cabecera a:hover {
+    color: #6BDEC8;
+}
+
+/*-----------Main------------*/
+.contenido {
+    width: 60%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 3.5em;
+}
+
+.contenido h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contenido h4 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    margin-top: 1em;
+}
+
+.contenido p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    margin-top: 1em;
+}
+
+#introduccion p {
+    margin: 2em 0 2em 0;
+}
+
+.contenido hgroup p {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    
+}
+
+/*-----------Video-------------*/
+#video {
+    padding: 0 9em;
+}
+
+#video figcaption {
+    font-size: 0.8rem;
+    margin-bottom: 3.5em;
+}
+
+/*-----Lista desordenada------*/
+#listaUtensilios {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#listaUtensilios li {
+    margin: 1em;
+    font-size: 1.1rem;
+}
+
+/*----Lista definiciones------*/
+dl {
+    padding-left: 3em;
+}
+
+dt {
+    margin: 0.7em 0 0.2em;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+dd {
+    font-size: 1.1rem;
+    padding-left: 3em;
+    line-height: 1.5;
+}
+
+/*-------Créditos---------*/
+#creditos {
+    margin-bottom: 3.5em;
+}
+
+#creditos a {
+    text-decoration-style: dotted;
+    color: #942C0B;
+}
+
+#creditos a:hover {
+    text-decoration-style: solid;
+    color: #942C0B;
+}
+
+/************CURSOS**************/
+/*------------Imagen------------*/
+#imagen {
+    padding: 0 11em;
+    margin-bottom: 3em;
+}
+
+#imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagen figcaption {
+    margin-top: 0.7em;
+}
+
+#imagen figcaption p {
+    
+    font-size: 0.8rem;
+}
+
+#imagen figcaption a {
+    text-decoration-style: dotted;
+    color: #942C0B;
+}
+
+#imagen figcaption a {
+    text-decoration-style: solid;
+    color: #942C0B;
+}
+
+#imagen figcaption a :hover {
+    
+    text-decoration-style: solid;
+    color: #942C0B;
+}
+
+/*------------Texto------------*/
+#informacion {
+    padding: 0 11em;
+}
+
+#informacion p {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+/*-----------Tabla------------*/
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 3em 0;
+    caption-side: top;
+}
+
+caption {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    padding: 0.2em;
+}
+
+thead {
+
+    border-bottom: 1px solid black;
+}
+
+thead th {
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.5em;
+}
+
+tbody td {
+    padding: 0.5em;
+    font-size: 1.1rem;
+}
+
+.filaColoreada {
+    background-color: #6BDEC8;
+}
+
+.tituloCurso {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+tfoot td {
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+    padding: 0.7em;
+}
+/************INSCRIPCIÓN**************/
+/*------------Formularios------------*/
+#inscripcion {
+    width: 50%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 3.5em;
+}
+
+#campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#campos div input {
+    width: 85%;
+}
+
+#inscripcion h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#inscripcion p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    margin: 1em 0;
+}
+
+#inscripcion label {
+    font-size: 1.1rem;
+}
+
+fieldset {
+    padding: 2em;
+    margin-bottom: 1.5em;
+    border: solid black 1px;
+}
+
+input {
+    padding: 1.5em;
+    margin: 1em 0;
+    border: solid black 1px;
+}
+
+select {
+    padding: 1.5em;
+    margin: 1em 0;
+    background-color: white;
+    border: solid black 1px;
+    width: 95%;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border: solid black 1px;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#inscripcion ul {
+    list-style-type: none;
+}
+
+#inscripcion a {
+    text-decoration-style: dotted;
+    color: #942C0B;
+}
+
+#inscripcion a:hover {
+    text-decoration-style: solid;
+    color: #942C0B;
+}
+
+#inscripcion button {
+    background-color: #942C0B;
+    padding: 0.8em 1em;
+    color: white;
+    font-size: 1.2rem;
+    margin: 1em 0 3em 0;
+}
+
+/*------------------Pie de página---------------*/
+.pieDePagina {
+    background-color: black;
+}
+
+.contenidoFooter {
+    width: 60%;
+    max-width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 1em 0 3em 0;
+}
+
+.contenidoFooter a:hover {
+    color: #6BDEC8;
+}
+
